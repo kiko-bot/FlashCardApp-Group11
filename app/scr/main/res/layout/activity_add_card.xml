@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/question_edit_text"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="573dp"
+        android:hint="Input FlashCard Question"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/answer_edit_text"
+        android:layout_width="391dp"
+        android:layout_height="125dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="191dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="415dp"
+        android:hint="Input FlashCard Answer"
+        android:inputType="text" />
+
+    <ImageView
+        android:id="@+id/cancel_icon_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="317dp"
+
+
+        android:layout_marginBottom="29dp"
+        android:src="@drawable/ic_baseline_cancel_icon" />
+
+    <ImageView
+        android:id="@+id/save_icon_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+
+
+        android:layout_marginBottom="29dp"
+        android:src="@drawable/ic_baseline_save_icon" />
+
+</RelativeLayout>
