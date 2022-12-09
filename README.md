@@ -1,4 +1,4 @@
-# FlashCardApp-Group11
+# Flash Card App-Group 11
 A FlashCard App for my CodePath Mobile Android Couse Final Project
 ## Lab 4
 
