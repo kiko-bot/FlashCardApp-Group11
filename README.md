@@ -34,7 +34,7 @@ A FlashCard App for my CodePath Mobile Android Couse Final Project
 ### App Walk-though
 
 
-<img src="https://i.imgur.com/1xZ86eG.gif" width=200><br>
+<img src="https://i.imgur.co/1xZ86eG.gif" width=200><br>
 
 
 
